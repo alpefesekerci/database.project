@@ -8,9 +8,9 @@ public class Driver {
         connection.openConnection();
         connection.executeQuery("SELECT * FROM student");
         connection.closeConnection();
+    }
 
         /*
-        }
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter Database Type (1 for MySQL, 2 for MsSQL, 3 for Oracle): ");
         int dbType = scanner.nextInt();
@@ -37,8 +37,9 @@ public class Driver {
             System.out.println("Operation completed successfully.");
             scanner.close();
             System.exit(0);
-        }*/
+        }
     }
+        */
 }
 
 
